@@ -1,0 +1,8 @@
+qiskit
+qiskit-ibm-runtime
+networkx
+numpy
+matplotlib
+cryptography
+pycryptodome
+pqc
