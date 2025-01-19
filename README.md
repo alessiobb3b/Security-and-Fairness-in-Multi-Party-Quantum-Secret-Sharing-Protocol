@@ -106,7 +106,6 @@ The latter invites more subtle rounding effects and introduces additional comple
 By downshifting to `mod 3`, the main structural features of the theoretical approach remain intact. We still encode each participant’s share in a partial-phase rotation, manage a truncated amplitude to mimic multi-level states, and embed decoy or entanglement-swap subroutines to replicate multi-hop connectivity. At the same time, we reduce the severity of circuit blowup and amplitude cross terms. We thereby preserve the essence of the paper’s cryptographic scheme—namely that each participant receives a masked contribution to the final secret—while avoiding some of the gate-sequencing tangles that hamper `mod 7` in a purely two-level environment.
 These considerations do not diminish the viability or generality of the `mod 7` scenario in principle. Rather, they highlight the pragmatic difficulties of bridging multi-level cryptographic protocols and hardware built around binary qubit logic. Once qubit machines or more refined multi-qubit entanglement topologies become routine, we can return to `mod 7` (or higher dimensions) with fewer design compromises. In the interim, focusing on `mod 3` ensures we still convey the key features of threshold-based secret reconstruction and partial-phase embeddings, while containing the mismatch between the theoretical arithmetic and the classical-quantum hybrid code Qiskit can realistically support.
 </p>
----
 
 ## License
 
