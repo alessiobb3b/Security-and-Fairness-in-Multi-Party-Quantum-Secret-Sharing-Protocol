@@ -98,7 +98,7 @@ The code relies on the following dependencies:
 
 ---
 
-## Additional COnsiderations
+## Additional Considerations
 
 Yet many protocols—particularly those involving modular arithmetic beyond a two-level system—naturally call for `qudit` hardware or advanced multi-qubit encodings. Our approach necessarily re-casts all higher dimensional arithmetic (for instance, the mod d computations) into routines that can be implemented with standard two-level qubits. This leads to truncated amplitude embeddings, partial-phase gates, and repeated ephemeral states. Although these strategies capture the conceptual essence of `mod d` secret sharing, they present notable overhead on real hardware and in large-scale simulations. A full hardware demonstration of multi-level quantum secret sharing would be constrained by device qubit quality, the requirement for multiple re-initializations, and difficulty in performing feed-forward classical corrections on ephemeral states.
 
