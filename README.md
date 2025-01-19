@@ -1,6 +1,8 @@
 # Security and Fairness in Multi-Party Quantum Secret Sharing Protocol
- 
+
+<p align="justify">
 This repository implements a hybrid quantum-classical cryptographic protocol that integrates quantum Dijkstra-based routing, quantum secret sharing, entanglement swap simulation, and classical AES-based encryption for secure communication.
+</p>
 
 ## Features
 - **Quantum Optimized Minimum Search Algorithm (Quantum OQMSA):** A Grover-like quantum algorithm for minimum index search.
