@@ -107,6 +107,8 @@ By downshifting to `mod 3`, the main structural features of the theoretical appr
 These considerations do not diminish the viability or generality of the `mod 7` scenario in principle. Rather, they highlight the pragmatic difficulties of bridging multi-level cryptographic protocols and hardware built around binary qubit logic. Once qubit machines or more refined multi-qubit entanglement topologies become routine, we can return to `mod 7` (or higher dimensions) with fewer design compromises. In the interim, focusing on `mod 3` ensures we still convey the key features of threshold-based secret reconstruction and partial-phase embeddings, while containing the mismatch between the theoretical arithmetic and the classical-quantum hybrid code Qiskit can realistically support.
 </p>
 
+---
+
 ## License
 
 This project is licensed under the MIT License. See `LICENSE` for details.
