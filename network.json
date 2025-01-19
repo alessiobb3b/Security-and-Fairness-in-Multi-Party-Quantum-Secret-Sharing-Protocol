@@ -1,0 +1,35 @@
+ {
+    "Network Topology" : { 
+        "Dealer": {
+            "Player 1": {
+                "alpha" : 0.9,
+                "beta" : 2
+            }
+        },
+        "Player 1": {
+            "Player 2": {
+                "alpha" : 0.8,
+                "beta" : 1.5
+            }, "Player 3": {
+                "alpha" : 0.85,
+                "beta" : 1
+            }
+        },
+        "Player 2": {
+            "Player 4": {
+                "alpha" : 0.7,
+                "beta" : 2
+        
+        }},
+        "Player 3": {
+            "Player 5": {
+                "alpha" : 0.9,
+                "beta" : 1
+            }},
+        "Player 4": {},
+        "Player 5": {}
+    },
+    "Network Parameters": {
+        "K" : 0.5
+    }
+}
