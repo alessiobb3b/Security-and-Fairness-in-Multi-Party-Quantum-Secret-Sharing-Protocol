@@ -16,7 +16,7 @@ This repository implements a hybrid quantum-classical cryptographic protocol tha
 ---
 
 ## Cite this Work
-
+<p align="justify">
 @ARTICLE{10857623,
   author={Santo, Alessio Di and Tiberti, Walter and Cassioli, Dajana},
   journal={IEEE Transactions on Quantum Engineering}, 
@@ -27,6 +27,7 @@ This repository implements a hybrid quantum-classical cryptographic protocol tha
   pages={1-18},
   keywords={Protocols;Cryptography;Scalability;Network topology;Quantum networks;Authentication;Topology;Routing;Fault tolerant systems;Fault tolerance;Quantum algorithm;quantum circuits;quantum communications;quantum computing;quantum cryptography;quantum entanglement;quantum key distribution (QKD);quantum networks},
   doi={10.1109/TQE.2025.3535823}}
+</p>
 
 ---
 
